@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.listen(PORT,HOST,() => {
-    console.log(`Server Listening on ${HOST}:${PORT}`);
+    console.log(`Server Listening on ${HOST}:${PORT}`);//
 })
 
 module.exports = app;
